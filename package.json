@@ -1,0 +1,42 @@
+{
+  "name": "friendlyisland",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pm2": "pm2 start index.js --name Nezo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "axios": "^0.21.0",
+    "booru": "^2.3.3",
+    "canvacord": "^5.0.7",
+    "canvas": "^2.6.1",
+    "canvas-senpai": "^0.1.6",
+    "chalk": "^4.1.0",
+    "discord-botlist-api": "^2.1.0",
+    "discord-giveaways": "^4.2.1",
+    "discord-player": "^2.3.1",
+    "discord.js": "^12.4.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "genshin-impact-api": "^1.0.8",
+    "humanize-number": "0.0.2",
+    "lowdb": "^1.0.0",
+    "moment": "^2.29.1",
+    "ms": "^2.1.2",
+    "ms-format": "^1.0.3",
+    "nekobot-api": "^1.5.0",
+    "nekos.life": "^2.0.7",
+    "node-fetch": "^2.6.1",
+    "random-puppy": "^1.1.0",
+    "request": "^2.88.2",
+    "snekfetch": "^4.0.4",
+    "sqlite": "^2.9.3",
+    "superagent": "^6.1.0"
+  }
+}
